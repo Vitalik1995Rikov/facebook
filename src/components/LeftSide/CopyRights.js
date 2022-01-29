@@ -13,9 +13,9 @@ const copy = [
 const CopyRights = () => {
     return (
         <div>
-            <ul> {copy.map(item => (
-                <li>
-                    <a href="">{item}</a>
+            <ul className="flex"> {copy.map(item => (
+                <li className="mr-1">
+                    <a className="text-gray-500 text-xs" href="">{item}</a>
                 </li>))}
                 
             </ul>

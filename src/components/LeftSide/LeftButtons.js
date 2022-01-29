@@ -46,11 +46,15 @@ const menu = [
 const LeftButtons = () => {
     return (
         <div>
+            <div className="flex justify-between">
+              <h2>Home</h2>  
+              <a href="">Create</a>
+            </div>
     <ul>
         {menu.map(item => (
             <li>
-                <a href="" className="flex">
-                    <img src={item.img} alt="" className="w-9 h-9"/>
+                <a href="" className="flex items-center py-2">
+                    <img src={item.img} alt="" className="w-9 h-9 mr-2"/>
                     <span>{item.title}</span>
                 </a>
             </li>
