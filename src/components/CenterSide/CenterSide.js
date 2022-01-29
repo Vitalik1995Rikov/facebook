@@ -2,7 +2,7 @@ import React from "react";
 
 const CenterSide = () => {
     return (
-        <div>CenterSide</div>
+        <div className="m-2 shadow-lg h-screen">CenterSide</div>
     )
 }
 

@@ -6,15 +6,20 @@ import RightSide from "./components/RightSide/RightSide";
 
 const App = () => {
     return (
-        <div className="flex">
-            <div className="w-1/3">
-                <LeftSide/>
+        <div>
+            <div>
+                <Header/>
             </div>
-            <div className="w-1/3">
-                <CenterSide/>
-            </div>
-            <div className="w-1/3">
-                <RightSide/>
+            <div className="flex">
+                <div className="w-1/4">
+                    <LeftSide/>
+                </div>
+                <div className="w-1/2">
+                    <CenterSide/>
+                </div>
+                <div className="w-1/4">
+                    <RightSide/>
+                </div>
             </div>
         </div>
     )

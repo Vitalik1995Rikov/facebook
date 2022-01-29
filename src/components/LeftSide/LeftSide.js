@@ -4,7 +4,7 @@ import LeftButtons from "./LeftButtons";
 
 const LeftSide = () => {
     return (
-        <div>
+        <div className="m-2 shadow-lg h-screen">
             <LeftButtons/>
             <CopyRights/>
         </div>
