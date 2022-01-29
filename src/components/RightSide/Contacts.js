@@ -50,7 +50,7 @@ const Contacts = () => {
             <ul>
                 {contacts.map(item => (
                     <li className="flex">
-                        <img src={item.img} alt="img"/>
+                        <img src={item.img} alt="img" className="w-10"/>
                         <span>{item.name}</span>
                     </li>
                 ))}
