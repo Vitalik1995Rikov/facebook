@@ -34,20 +34,24 @@ const icons = [
 
 const Header = () => {
     return (
-        <div className="m-2 shadow-lg text-4xl flex items-center">
-            <div className="flex">
+        <div className="m-2 shadow-lg flex">
+            <div className="flex w-1/4">
                 <img className="w-10" src="https://img.icons8.com/fluency/50/000000/facebook-new.png" alt="img"/>
                 <input type="text" placeholder="search" />
             </div>
-            <ul className="flex">
-                {icons.map(item => (
-                    <li className="w-8">
-                        <img src={item.img} alt="img" />
-                    </li>
-                ))}
-            </ul>
-            <div className="w-8">
-                <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-settings-business-and-management-kiranshastry-lineal-kiranshastry-3.png" alt='img'/>
+            <div className="flex">
+                <div className="">
+                    <ul className="flex">
+                        {icons.map(item => (
+                            <li className="w-8">
+                                <img src={item.img} alt="img" />
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                <div className="">
+                    <img className="w-8" src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-settings-business-and-management-kiranshastry-lineal-kiranshastry-3.png" alt='img'/>
+                </div>
             </div>
         </div>
     )
