@@ -47,7 +47,7 @@ const Header = () => {
                 ))}
             </ul>
             <div className="w-8">
-                <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-settings-business-and-management-kiranshastry-lineal-kiranshastry-3.png"/>
+                <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-settings-business-and-management-kiranshastry-lineal-kiranshastry-3.png" alt='img'/>
             </div>
         </div>
     )

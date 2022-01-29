@@ -1,8 +1,11 @@
 import React from "react";
+import Stories from "./Stories";
 
 const CenterSide = () => {
     return (
-        <div className="m-2 shadow-lg h-screen">CenterSide</div>
+        <div className="m-2 shadow-lg h-screen">
+            <Stories/>
+        </div>
     )
 }
 
